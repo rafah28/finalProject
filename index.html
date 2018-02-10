@@ -1,0 +1,892 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Amiri" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>final</title>
+  </head> 
+  <body >
+      
+       <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">الاذكار</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#one">اذكار الصباح</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="#two">اذكار المساء <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index2.html">عن الموقع</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+    <div class="container" id="one">
+   
+
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="img/1.jpg" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/14.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/9.jpg" alt="Third slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/12.jpg" alt="Third slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/17.jpg" alt="Third slide">
+    </div>
+  </div>
+</div>
+  </div>
+
+
+     <div id="counter" v-if="counter > 0" @click="counter--">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-sm-12 col-xs-12" >
+        <p>
+         
+أعوذ بالله من الشيطان الرجيم<br><br> اللّهُ لاَ إِلَـهَ إِلاَّ هُوَ الْحَيُّ الْقَيُّومُ لاَ تَأْخُذُهُ سِنَةٌ وَلاَ نَوْمٌ لَّهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الأَرْضِ مَن ذَا الَّذِي يَشْفَعُ عِنْدَهُ إِلاَّ بِإِذْنِهِ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ وَلاَ يُحِيطُونَ بِشَيْءٍ مِّنْ عِلْمِهِ إِلاَّ بِمَا شَاء وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالأَرْضَ وَلاَ يَؤُودُهُ حِفْظُهُمَا وَهُوَ الْعَلِيُّ الْعَظِيمُ
+        </p>
+      </div>
+      <div class="col-lg-4 col-sm-12 col-xs-12">
+       <h1 >التكرار:{{ counter }} </h1>
+       </div>
+     </div>
+  </div>
+</div>
+ 
+
+ <div id="counter1" v-if="counter1 > 0" @click="counter1--">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-sm-12 col-xs-12">
+        <p>
+         
+بسم الله الرحمن الرحيم<br><br> قُلْ هُوَ اللَّهُ أَحَدٌ*اللَّهُ الصَّمَدُ*لَمْ يَلِدْ وَلَمْ يُولَدْ * وَلَمْ يَكُن لَّهُ كُفُواً أَحَدٌ
+        </p>
+      </div>
+      <div class="col-lg-4 col-sm-12 col-xs-12" id="divcon2">
+       <h1 >التكرار:{{ counter1 }} </h1>
+       </div>
+     </div>
+  </div>
+</div>
+ 
+
+ <div id="counter2" v-if="counter2 > 0" @click="counter2--">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-sm-12 col-xs-12">
+        <p>
+         
+بسم الله الرحمن الرحيم<br><br> قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ * مِن شَرِّ مَا خَلَقَ *وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ * وَمِن شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ * وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ
+
+        </p>
+      </div>
+      <div class="col-lg-4 col-sm-12 col-xs-12" id="divcon2">
+       <h1 >التكرار:{{ counter2 }} </h1>
+       </div>
+     </div>
+  </div>
+</div>
+  
+
+<div id="counter3" v-if="counter3 > 0" @click="counter3--">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-sm-12 col-xs-12">
+        <p>
+         
+بسم الله الرحمن الرحيم<br><br>قُلْ أَعُوذُ بِرَبِّ النَّاسِ * مَلِكِ النَّاسِ * إِلَهِ النَّاسِ *مِن شَرِّ الْوَسْوَاسِ الْخَنَّاسِ * الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ * مِنَ الْجِنَّةِ وَالنَّاسِ
+
+        </p>
+      </div>
+      <div class="col-lg-4 col-sm-12 col-xs-12" id="divcon2">
+       <h1 >التكرار:{{ counter3 }} </h1>
+       </div>
+     </div>
+  </div>
+</div>
+ 
+
+<div id="counter4" v-if="counter4 > 0" @click="counter4--">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-sm-12 col-xs-12">
+        <p>
+         
+اصبحنا وأصبح الملك لله، والحمد لله، لا إله إلا الله وحده لا شريك له، له الملك وله الحمد وهو على كل شيء قدير، ربِّ أسألك خير ما في هذا اليوم وخير ما بعده وأعوذ بك من شر ما في هذه الليلة وشر ما بعدها ربِّ أعوذ بك من الكسل وسوء الكبر، ربَّ أعوذ بك من عذابٍ في النار وعذاب في القبر"
+
+        </p>
+      </div>
+      <div class="col-lg-4 col-sm-12 col-xs-12" id="divcon2">
+       <h1 >التكرار:{{ counter4 }} </h1>
+       </div>
+     </div>
+  </div>
+</div>
+ 
+<div id="counter5" v-if="counter5 > 0" @click="counter5--">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-sm-12 col-xs-12">
+        <p>
+         اللهم بك أصبحنا وبك أمسينا وبك نحيا وبك نموت وإليك النشور
+        </p>
+      </div>
+      <div class="col-lg-4 col-sm-12 col-xs-12" id="divcon2">
+       <h1 >التكرار:{{ counter5 }} </h1>
+       </div>
+     </div>
+  </div>
+</div>
+ 
+
+<div id="counter6" v-if="counter6 > 0" @click="counter6--">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-sm-12 col-xs-12">
+        <p>
+        اللهم أنت ربي لا إله إلا أنت خَلَقتني وأنا عَبْدُك وأنا على عهدك ووعدك ما استطعت وأعوذ بك من شر ما صنعت أبوء لك بنعمتك على وأبوء بذنبي فاغفر لي فإنه لا يغفر الذنوب إلا أنت"
+        </p>
+      </div>
+      <div class="col-lg-4 col-sm-12 col-xs-12" id="divcon2">
+       <h1 >التكرار:{{ counter6 }} </h1>
+       </div>
+     </div>
+  </div>
+</div>
+ 
+
+<div id="counter7" v-if="counter7 > 0" @click="counter7--">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-sm-12 col-xs-12">
+        <p>
+       اللهم إني أصبحت أشهدك وأشهد حملة عرشك، وملائكتك وجميع خلقك، أنك أنت الله لا إله إلا أنت وحدك لا شريك لك ، وأن محمداً عبدك ورسولك 
+        </p>
+      </div>
+      <div class="col-lg-4 col-sm-12 col-xs-12" id="divcon2">
+       <h1 >التكرار:{{ counter7 }} </h1>
+       </div>
+     </div>
+  </div>
+</div>
+ 
+
+<div id="counter8" v-if="counter8 > 0" @click="counter8--">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-sm-12 col-xs-12">
+        <p>
+       اللهم ما أصبح بي من نعمة أو بأحد من خلقك فمنك وحدك لا شريك لك، فلك الحمد ولك الشكر
+        </p>
+      </div>
+      <div class="col-lg-4 col-sm-12 col-xs-12" id="divcon2">
+       <h1 >التكرار:{{ counter8 }} </h1>
+       </div>
+     </div>
+  </div>
+</div>
+ 
+
+<div id="counter9" v-if="counter9 > 0" @click="counter9--">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-sm-12 col-xs-12">
+        <p>
+       اللهم عافني في بَدَني، اللهم عافني في سمعي، اللهم عافني في بصري، لا إله إلا أنت. اللهم إني أعوذ بك من الكفر، والفقر، اللهم إني أعوذ بك من عذاب القبر لا إله إلا أنت
+
+        </p>
+      </div>
+      <div class="col-lg-4 col-sm-12 col-xs-12" id="divcon2">
+       <h1 >التكرار:{{ counter9 }} </h1>
+       </div>
+     </div>
+  </div>
+</div>
+  
+
+<div id="counter10" v-if="counter10 > 0" @click="counter10--">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-sm-12 col-xs-12">
+        <p>
+      حسبي الله لا إله إلا هو عليه توكلت وهو رب العرش العظيم
+
+        </p>
+      </div>
+      <div class="col-lg-4 col-sm-12 col-xs-12" id="divcon2">
+       <h1 >التكرار:{{ counter10 }} </h1>
+       </div>
+     </div>
+  </div>
+</div>
+ 
+
+<div id="counter11" v-if="counter11 > 0" @click="counter11--">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-sm-12 col-xs-12">
+        <p>
+      اللهم إني أسألك العافية في الدنيا والآخرة، اللهم إني أسألك العفو والعافية في ديني ودنياي وأهلي ومالي، اللهم استر عوراتي وآمن روعاتي، اللهم احفظني من بين يديَّ ومن خلفي وعن يميني وعن شمالي ومن فوقي وأعوذ بعظمتك أن أغتال من تحتي
+        </p>
+      </div>
+      <div class="col-lg-4 col-sm-12 col-xs-12" id="divcon2">
+       <h1 >التكرار:{{ counter11 }} </h1>
+       </div>
+     </div>
+  </div>
+</div>
+ 
+
+<div id="counter12" v-if="counter12 > 0" @click="counter12--">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-sm-12 col-xs-12">
+        <p>
+      اللهم إني أسألك العافية في الدنيا والآخرة، اللهم إني أسألك العفو والعافية في ديني ودنياي وأهلي ومالي، اللهم استر عوراتي وآمن روعاتي، اللهم احفظني من بين يديَّ ومن خلفي وعن يميني وعن شمالي ومن فوقي وأعوذ بعظمتك أن أغتال من تحتي
+        </p>
+      </div>
+      <div class="col-lg-4 col-sm-12 col-xs-12" id="divcon2">
+       <h1 >التكرار:{{ counter12 }} </h1>
+       </div>
+     </div>
+  </div>
+</div>
+  
+
+<div id="counter13" v-if="counter13 > 0" @click="counter13--">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-sm-12 col-xs-12">
+        <p>
+      اللهم عَالِمَ الغيب والشَّهادة، فاطر السموات والأرض، رب كل شيء ومليكه، أشهد أن لا إله إلا أنت أعوذ بك من شر نفسي ومن شر الشيطان وشركه وأن اقترف على نفسي سوءًا أو أجُره إلى مسلم
+        </p>
+      </div>
+      <div class="col-lg-4 col-sm-12 col-xs-12" id="divcon2">
+       <h1 >التكرار:{{ counter13 }} </h1>
+       </div>
+     </div>
+  </div>
+</div>
+  
+
+<div id="counter14" v-if="counter14 > 0" @click="counter14--">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-sm-12 col-xs-12">
+        <p>
+     بسم الله الذي لا يضرُّ مع اسمه شيء في الأرض ولا في السماء وهو السميع العليم
+        </p>
+      </div>
+      <div class="col-lg-4 col-sm-12 col-xs-12" id="divcon2">
+       <h1 >التكرار:{{ counter14 }} </h1>
+       </div>
+     </div>
+  </div>
+</div>
+  
+
+<div id="counter15" v-if="counter15 > 0" @click="counter15--">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-sm-12 col-xs-12">
+        <p>
+     رضيت بالله رباً، وبالإسلام ديناً وبمحمد صلى الله عليه وسلم نبياً
+        </p>
+      </div>
+      <div class="col-lg-4 col-sm-12 col-xs-12" id="divcon2">
+       <h1 >التكرار:{{ counter15 }} </h1>
+       </div>
+     </div>
+  </div>
+</div>
+ 
+
+<div id="counter16" v-if="counter16 > 0" @click="counter16--">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-sm-12 col-xs-12">
+        <p>
+     يا حي يا قيوم برحمتك أستغيث أصلح لي شأني كُله ولا تَكِلْني إلى نفيس طرفة عين
+        </p>
+      </div>
+      <div class="col-lg-4 col-sm-12 col-xs-12" id="divcon2">
+       <h1 >التكرار:{{ counter16 }} </h1>
+       </div>
+     </div>
+  </div>
+</div>
+  
+
+<div id="counter17" v-if="counter17 > 0" @click="counter17--">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-sm-12 col-xs-12">
+        <p>
+    اصبحنا وأصبح الملك لله رب العالمين، اللهم إني أسألك خير هذه اليوم فتحه، ونصره، ونوره، وبركته، وهداه، وأعوذ بك من شر ما فيه وشر ما بعده
+        </p>
+      </div>
+      <div class="col-lg-4 col-sm-12 col-xs-12" id="divcon2">
+       <h1 >التكرار:{{ counter17 }} </h1>
+       </div>
+     </div>
+  </div>
+</div>
+  
+
+<div id="counter18" v-if="counter18 > 0" @click="counter18--">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-sm-12 col-xs-12">
+        <p>
+    اصبحنا على فطرة الإسلام وكلمة الإخلاص، ودين نبيَّنا محمد صلى الله عليه وسلم وملَّة أبينا إبراهيم حنيفاً مسلماً وما كان من المشركين"
+سبحان الله وبحمده
+        </p>
+      </div>
+      <div class="col-lg-4 col-sm-12 col-xs-12" id="divcon2">
+       <h1 >التكرار:{{ counter18 }} </h1>
+       </div>
+     </div>
+  </div>
+</div>
+ 
+
+<div id="counter19" v-if="counter19 > 0" @click="counter19--">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-sm-12 col-xs-12">
+        <p>
+    لا إله إلا الله وحده لا شريك له ،له الملك وله الحمد وهو على كل شيء قدير
+        </p>
+      </div>
+      <div class="col-lg-4 col-sm-12 col-xs-12" id="divcon2">
+       <h1 >التكرار:{{ counter19 }} </h1>
+       </div>
+     </div>
+  </div>
+</div>
+ 
+
+<div id="counter20" v-if="counter20 > 0" @click="counter20--">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-sm-12 col-xs-12">
+        <p>
+   سبحان الله وبحمده عدد خلقهِ ورِضَا نفسِهِ وزِنُة عَرشِهِ ومِداد كلماته
+        </p>
+      </div>
+      <div class="col-lg-4 col-sm-12 col-xs-12" id="divcon2">
+       <h1 >التكرار:{{ counter20 }} </h1>
+       </div>
+     </div>
+  </div>
+</div>
+ 
+
+<div id="counter21" v-if="counter21 > 0" @click="counter21--">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-sm-12 col-xs-12">
+        <p>
+  أعوذ بكلمات الله التامات من شر ما خلق
+        </p>
+      </div>
+      <div class="col-lg-4 col-sm-12 col-xs-12" id="divcon2">
+       <h1 >التكرار:{{ counter21 }} </h1>
+       </div>
+     </div>
+  </div>
+</div>
+ 
+
+<div id="counter22" v-if="counter22 > 0" @click="counter22--">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-sm-12 col-xs-12">
+        <p>
+  للهم صل وسلم على نبينا محمد
+        </p>
+      </div>
+      <div class="col-lg-4 col-sm-12 col-xs-12" id="divcon2">
+       <h1 >التكرار:{{ counter22 }} </h1>
+       </div>
+     </div>
+  </div>
+</div>
+     
+
+
+
+
+
+
+
+<div class="container"  id="two">
+     
+
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="img/16.jpg" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/5.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/6.jpg" alt="Third slide">
+    </div>
+     <div class="carousel-item">
+      <img class="d-block w-100" src="img/8.jpg" alt="Third slide">
+    </div>
+     <div class="carousel-item">
+      <img class="d-block w-100" src="img/18.jpg" alt="Third slide">
+    </div>
+     <div class="carousel-item">
+      <img class="d-block w-100" src="img/19.jpg" alt="Third slide">
+    </div>
+     <div class="carousel-item">
+      <img class="d-block w-100" src="img/13.jpg" alt="Third slide">
+    </div>
+     <div class="carousel-item">
+      <img class="d-block w-100" src="img/15.jpg" alt="Third slide">
+    </div>
+  </div>
+</div>
+  </div>
+
+
+     <div id="counter0" v-if="counter0 > 0" @click="counter0--">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-sm-12 col-xs-12" >
+        <p>
+         
+أعوذ بالله من الشيطان الرجيم<br><br> اللّهُ لاَ إِلَـهَ إِلاَّ هُوَ الْحَيُّ الْقَيُّومُ لاَ تَأْخُذُهُ سِنَةٌ وَلاَ نَوْمٌ لَّهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الأَرْضِ مَن ذَا الَّذِي يَشْفَعُ عِنْدَهُ إِلاَّ بِإِذْنِهِ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ وَلاَ يُحِيطُونَ بِشَيْءٍ مِّنْ عِلْمِهِ إِلاَّ بِمَا شَاء وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالأَرْضَ وَلاَ يَؤُودُهُ حِفْظُهُمَا وَهُوَ الْعَلِيُّ الْعَظِيمُ
+        </p>
+      </div>
+      <div class="col-lg-4 col-sm-12 col-xs-12">
+       <h1 >التكرار:{{ counter0 }} </h1>
+       </div>
+     </div>
+  </div>
+</div>
+ 
+
+ <div id="counter1a" v-if="counter1a > 0" @click="counter1a--">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-sm-12 col-xs-12">
+        <p>
+         
+بسم الله الرحمن الرحيم<br><br> قُلْ هُوَ اللَّهُ أَحَدٌ*اللَّهُ الصَّمَدُ*لَمْ يَلِدْ وَلَمْ يُولَدْ * وَلَمْ يَكُن لَّهُ كُفُواً أَحَدٌ
+        </p>
+      </div>
+      <div class="col-lg-4 col-sm-12 col-xs-12" id="divcon2">
+       <h1 >التكرار:{{ counter1a }} </h1>
+       </div>
+     </div>
+  </div>
+</div>
+  
+
+ <div id="counter2a" v-if="counter2a > 0" @click="counter2a--">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-sm-12 col-xs-12">
+        <p>
+         
+بسم الله الرحمن الرحيم<br><br> قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ * مِن شَرِّ مَا خَلَقَ *وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ * وَمِن شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ * وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ
+
+        </p>
+      </div>
+      <div class="col-lg-4 col-sm-12 col-xs-12" id="divcon2">
+       <h1 >التكرار:{{ counter2a }} </h1>
+       </div>
+     </div>
+  </div>
+</div>
+  
+
+<div id="counter3a" v-if="counter3a > 0" @click="counter3a--">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-sm-12 col-xs-12">
+        <p>
+         
+بسم الله الرحمن الرحيم<br><br>قُلْ أَعُوذُ بِرَبِّ النَّاسِ * مَلِكِ النَّاسِ * إِلَهِ النَّاسِ *مِن شَرِّ الْوَسْوَاسِ الْخَنَّاسِ * الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ * مِنَ الْجِنَّةِ وَالنَّاسِ
+
+        </p>
+      </div>
+      <div class="col-lg-4 col-sm-12 col-xs-12" id="divcon2">
+       <h1 >التكرار:{{ counter3a }} </h1>
+       </div>
+     </div>
+  </div>
+</div>
+ 
+
+<div id="counter4a" v-if="counter4a > 0" @click="counter4a--">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-sm-12 col-xs-12">
+        <p>
+         
+اصبحنا وأصبح الملك لله، والحمد لله، لا إله إلا الله وحده لا شريك له، له الملك وله الحمد وهو على كل شيء قدير، ربِّ أسألك خير ما في هذا اليوم وخير ما بعده وأعوذ بك من شر ما في هذه الليلة وشر ما بعدها ربِّ أعوذ بك من الكسل وسوء الكبر، ربَّ أعوذ بك من عذابٍ في النار وعذاب في القبر"
+
+        </p>
+      </div>
+      <div class="col-lg-4 col-sm-12 col-xs-12" id="divcon2">
+       <h1 >التكرار:{{ counter4a }} </h1>
+       </div>
+     </div>
+  </div>
+</div>
+  
+
+<div id="counter5a" v-if="counter5a > 0" @click="counter5a--">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-sm-12 col-xs-12">
+        <p>
+         اللهم بك أصبحنا وبك أمسينا وبك نحيا وبك نموت وإليك النشور
+        </p>
+      </div>
+      <div class="col-lg-4 col-sm-12 col-xs-12" id="divcon2">
+       <h1 >التكرار:{{ counter5a }} </h1>
+       </div>
+     </div>
+  </div>
+</div>
+  
+
+<div id="counter6a" v-if="counter6a > 0" @click="counter6a--">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-sm-12 col-xs-12">
+        <p>
+        اللهم أنت ربي لا إله إلا أنت خَلَقتني وأنا عَبْدُك وأنا على عهدك ووعدك ما استطعت وأعوذ بك من شر ما صنعت أبوء لك بنعمتك على وأبوء بذنبي فاغفر لي فإنه لا يغفر الذنوب إلا أنت"
+        </p>
+      </div>
+      <div class="col-lg-4 col-sm-12 col-xs-12" id="divcon2">
+       <h1 >التكرار:{{ counter6a }} </h1>
+       </div>
+     </div>
+  </div>
+</div>
+  
+
+<div id="counter7a" v-if="counter7a > 0" @click="counter7a--">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-sm-12 col-xs-12">
+        <p>
+       اللهم إني أصبحت أشهدك وأشهد حملة عرشك، وملائكتك وجميع خلقك، أنك أنت الله لا إله إلا أنت وحدك لا شريك لك ، وأن محمداً عبدك ورسولك 
+        </p>
+      </div>
+      <div class="col-lg-4 col-sm-12 col-xs-12" id="divcon2">
+       <h1 >التكرار:{{ counter7a }} </h1>
+       </div>
+     </div>
+  </div>
+</div>
+ 
+
+<div id="counter8a" v-if="counter8a > 0" @click="counter8a--">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-sm-12 col-xs-12">
+        <p>
+       اللهم ما أصبح بي من نعمة أو بأحد من خلقك فمنك وحدك لا شريك لك، فلك الحمد ولك الشكر
+        </p>
+      </div>
+      <div class="col-lg-4 col-sm-12 col-xs-12" id="divcon2">
+       <h1 >التكرار:{{ counter8a }} </h1>
+       </div>
+     </div>
+  </div>
+</div>
+  
+
+<div id="counter9a" v-if="counter9a > 0" @click="counter9a--">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-sm-12 col-xs-12">
+        <p>
+       اللهم عافني في بَدَني، اللهم عافني في سمعي، اللهم عافني في بصري، لا إله إلا أنت. اللهم إني أعوذ بك من الكفر، والفقر، اللهم إني أعوذ بك من عذاب القبر لا إله إلا أنت
+
+        </p>
+      </div>
+      <div class="col-lg-4 col-sm-12 col-xs-12" id="divcon2">
+       <h1 >التكرار:{{ counter9a }} </h1>
+       </div>
+     </div>
+  </div>
+</div>
+ 
+
+<div id="counter10a" v-if="counter10a > 0" @click="counter10a--">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-sm-12 col-xs-12">
+        <p>
+      حسبي الله لا إله إلا هو عليه توكلت وهو رب العرش العظيم
+
+        </p>
+      </div>
+      <div class="col-lg-4 col-sm-12 col-xs-12" id="divcon2">
+       <h1 >التكرار:{{ counter10a }} </h1>
+       </div>
+     </div>
+  </div>
+</div>
+  
+
+<div id="counter11a" v-if="counter11a > 0" @click="counter11a--">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-sm-12 col-xs-12">
+        <p>
+      اللهم إني أسألك العافية في الدنيا والآخرة، اللهم إني أسألك العفو والعافية في ديني ودنياي وأهلي ومالي، اللهم استر عوراتي وآمن روعاتي، اللهم احفظني من بين يديَّ ومن خلفي وعن يميني وعن شمالي ومن فوقي وأعوذ بعظمتك أن أغتال من تحتي
+        </p>
+      </div>
+      <div class="col-lg-4 col-sm-12 col-xs-12" id="divcon2">
+       <h1 >التكرار:{{ counter11a }} </h1>
+       </div>
+     </div>
+  </div>
+</div>
+ 
+<div id="counter12a" v-if="counter12a > 0" @click="counter12a--">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-sm-12 col-xs-12">
+        <p>
+      اللهم إني أسألك العافية في الدنيا والآخرة، اللهم إني أسألك العفو والعافية في ديني ودنياي وأهلي ومالي، اللهم استر عوراتي وآمن روعاتي، اللهم احفظني من بين يديَّ ومن خلفي وعن يميني وعن شمالي ومن فوقي وأعوذ بعظمتك أن أغتال من تحتي
+        </p>
+      </div>
+      <div class="col-lg-4 col-sm-12 col-xs-12" id="divcon2">
+       <h1 >التكرار:{{ counter12a }} </h1>
+       </div>
+     </div>
+  </div>
+</div>
+ 
+
+<div id="counter13a" v-if="counter13a > 0" @click="counter13a--">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-sm-12 col-xs-12">
+        <p>
+      اللهم عَالِمَ الغيب والشَّهادة، فاطر السموات والأرض، رب كل شيء ومليكه، أشهد أن لا إله إلا أنت أعوذ بك من شر نفسي ومن شر الشيطان وشركه وأن اقترف على نفسي سوءًا أو أجُره إلى مسلم
+        </p>
+      </div>
+      <div class="col-lg-4 col-sm-12 col-xs-12" id="divcon2">
+       <h1 >التكرار:{{ counter13a }} </h1>
+       </div>
+     </div>
+  </div>
+</div>
+  
+
+<div id="counter14a" v-if="counter14a > 0" @click="counter14a--">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-sm-12 col-xs-12">
+        <p>
+     بسم الله الذي لا يضرُّ مع اسمه شيء في الأرض ولا في السماء وهو السميع العليم
+        </p>
+      </div>
+      <div class="col-lg-4 col-sm-12 col-xs-12" id="divcon2">
+       <h1 >التكرار:{{ counter14a }} </h1>
+       </div>
+     </div>
+  </div>
+</div>
+ 
+
+<div id="counter15a" v-if="counter15a > 0" @click="counter15a--">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-sm-12 col-xs-12">
+        <p>
+     رضيت بالله رباً، وبالإسلام ديناً وبمحمد صلى الله عليه وسلم نبياً
+        </p>
+      </div>
+      <div class="col-lg-4 col-sm-12 col-xs-12" id="divcon2">
+       <h1 >التكرار:{{ counter15a }} </h1>
+       </div>
+     </div>
+  </div>
+</div>
+ 
+<div id="counter16a" v-if="counter16a > 0" @click="counter16a--">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-sm-12 col-xs-12">
+        <p>
+     يا حي يا قيوم برحمتك أستغيث أصلح لي شأني كُله ولا تَكِلْني إلى نفيس طرفة عين
+        </p>
+      </div>
+      <div class="col-lg-4 col-sm-12 col-xs-12" id="divcon2">
+       <h1 >التكرار:{{ counter16a }} </h1>
+       </div>
+     </div>
+  </div>
+</div>
+ 
+
+<div id="counter17a" v-if="counter17a > 0" @click="counter17a--">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-sm-12 col-xs-12">
+        <p>
+    اصبحنا وأصبح الملك لله رب العالمين، اللهم إني أسألك خير هذه اليوم فتحه، ونصره، ونوره، وبركته، وهداه، وأعوذ بك من شر ما فيه وشر ما بعده
+        </p>
+      </div>
+      <div class="col-lg-4 col-sm-12 col-xs-12" id="divcon2">
+       <h1 >التكرار:{{ counter17a }} </h1>
+       </div>
+     </div>
+  </div>
+</div>
+ 
+
+<div id="counter18a" v-if="counter18a > 0" @click="counter18a--">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-sm-12 col-xs-12">
+        <p>
+    اصبحنا على فطرة الإسلام وكلمة الإخلاص، ودين نبيَّنا محمد صلى الله عليه وسلم وملَّة أبينا إبراهيم حنيفاً مسلماً وما كان من المشركين"
+سبحان الله وبحمده
+        </p>
+      </div>
+      <div class="col-lg-4 col-sm-12 col-xs-12" id="divcon2">
+       <h1 >التكرار:{{ counter18a }} </h1>
+       </div>
+     </div>
+  </div>
+</div>
+  
+
+<div id="counter19a" v-if="counter19a > 0" @click="counter19a--">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-sm-12 col-xs-12">
+        <p>
+    لا إله إلا الله وحده لا شريك له ،له الملك وله الحمد وهو على كل شيء قدير
+        </p>
+      </div>
+      <div class="col-lg-4 col-sm-12 col-xs-12" id="divcon2">
+       <h1 >التكرار:{{ counter19a }} </h1>
+       </div>
+     </div>
+  </div>
+</div>
+ 
+
+<div id="counter20a" v-if="counter20a > 0" @click="counter20a--">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-sm-12 col-xs-12">
+        <p>
+   سبحان الله وبحمده عدد خلقهِ ورِضَا نفسِهِ وزِنُة عَرشِهِ ومِداد كلماته
+        </p>
+      </div>
+      <div class="col-lg-4 col-sm-12 col-xs-12" id="divcon2">
+       <h1 >التكرار:{{ counter20a }} </h1>
+       </div>
+     </div>
+  </div>
+</div>
+ 
+
+<div id="counter21a" v-if="counter21a > 0" @click="counter21a--">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-sm-12 col-xs-12">
+        <p>
+  أعوذ بكلمات الله التامات من شر ما خلق
+        </p>
+      </div>
+      <div class="col-lg-4 col-sm-12 col-xs-12" id="divcon2">
+       <h1 >التكرار:{{ counter21a }} </h1>
+       </div>
+     </div>
+  </div>
+</div>
+  
+
+<div id="counter22a" v-if="counter22a > 0" @click="counter22a--">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-sm-12 col-xs-12">
+        <p>
+  للهم صل وسلم على نبينا محمد
+        </p>
+      </div>
+      <div class="col-lg-4 col-sm-12 col-xs-12" id="divcon2">
+       <h1 >التكرار:{{ counter22a }} </h1>
+       </div>
+     </div>
+  </div>
+    
+</div>
+  <div class="container">
+      
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+           <footer>
+           <p id="pone">
+          &copy; <a href="https://www.facebook.com/EngRafo28/">SheIsProgrammer</a>
+        </p><br>
+        <p id="ptwo">
+          Designed By: Rafah Hasan
+        </p>
+            </footer>
+      </div>
+        
+ 
+      </div>
+      
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script  src="script.js"></script>
+  </body>
+</html>
